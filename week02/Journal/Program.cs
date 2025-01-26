@@ -1,3 +1,7 @@
+/* Variety of prompts: A variety of prompts were included in the PromptGenerator class so the user can reflect on different aspects of their day.
+Output format: The program's output was formatted to be clear and easy to read.
+Mood tracking: A Mood property was added to the Entry class to allow the user to record their mood along with their journal entry. */
+
 using System;
 
 public class Program
