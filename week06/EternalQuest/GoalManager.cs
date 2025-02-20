@@ -80,7 +80,7 @@ public class GoalManager
     if (!int.TryParse(pointsInput, out points))
     {
       Console.WriteLine("Invalid points input. Please enter a valid number.");
-      return; // Salir del método si la entrada no es válida
+      return;
     }
 
     switch (goalType)

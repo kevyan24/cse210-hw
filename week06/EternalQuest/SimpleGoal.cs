@@ -30,7 +30,6 @@ public class SimpleGoal : Goal
     return $"SimpleGoal:{GetShortName()},{_description},{GetPoints()},{_isComplete}";
   }
 
-  // Método para establecer _isComplete desde GoalManager
   public void SetIsComplete(bool isComplete)
   {
     _isComplete = isComplete;

@@ -38,7 +38,6 @@ public class ChecklistGoal : Goal
     return _bonus;
   }
 
-  // Método para establecer _amountCompleted desde GoalManager
   public void SetAmountCompleted(int amountCompleted)
   {
     _amountCompleted = amountCompleted;
