@@ -20,7 +20,8 @@ public class GoalManager
       Console.WriteLine("3. Save Goals");
       Console.WriteLine("4. Load Goals");
       Console.WriteLine("5. Record Event");
-      Console.WriteLine("6. Exit");
+      Console.WriteLine("6. Display User Info");
+      Console.WriteLine("7. Exit");
       Console.Write("Select a choice from the menu: ");
       string choice = Console.ReadLine();
 
@@ -42,12 +43,20 @@ public class GoalManager
           RecordEvent();
           break;
         case "6":
+          DisplayUserInfo(); 
+          break;
+        case "7": 
           return;
         default:
           Console.WriteLine("Invalid choice.");
           break;
       }
     }
+  }
+
+  public void DisplayUserInfo() 
+  {
+    Console.WriteLine($"\nYou have {_score} points.");
   }
 
   public void ListGoalDetails()
